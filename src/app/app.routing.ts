@@ -17,7 +17,7 @@ export const routes: Routes = [
       },
       {
         path: 'casestudies',
-        loadChildren: 'app/CaseStudies/casestudies.module#CaseStudiesModule',
+        loadChildren: 'app/Models/Esst/CaseStudies/casestudies.module#CaseStudiesModule',
         data: {pageTitle: 'Case Studies'}
       },
       {
